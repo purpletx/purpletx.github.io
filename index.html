@@ -1,0 +1,78 @@
+---
+layout: default
+title: 망라 네트워크 스캐너
+---
+
+<div class="container">
+    <header class="hero">
+        <h1>망라 네트워크 스캐너</h1>
+        <p class="subtitle">포괄적인 네트워크 탐색 및 보안 분석 도구</p>
+        <p class="author">개발자: 김지훈</p>
+    </header>
+
+    <section class="features">
+        <h2>주요 기능</h2>
+        <div class="feature-grid">
+            <div class="feature-item">
+                <h3>다중 포트 스캔</h3>
+                <p>동시 다중 포트 스캐닝으로 효율적인 네트워크 매핑</p>
+            </div>
+            <div class="feature-item">
+                <h3>네트워크 발견</h3>
+                <p>활성 호스트 자동 탐색 및 식별</p>
+            </div>
+            <div class="feature-item">
+                <h3>서비스 인식</h3>
+                <p>열린 포트의 서비스 유형 자동 인식</p>
+            </div>
+            <div class="feature-item">
+                <h3>크로스 플랫폼</h3>
+                <p>Windows, Linux, macOS에서 동작 보장</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="installation">
+        <h2>설치 방법</h2>
+        <div class="code-block">
+            <pre><code># 저장소 복제
+git clone https://github.com/joseon-dev/망라-네트워크-스캐너.git
+
+# 디렉토리 이동
+cd 망라-네트워크-스캐너
+
+# 실행 권한 부여
+chmod +x network_scanner_plus.py</code></pre>
+        </div>
+    </section>
+
+    <section class="usage">
+        <h2>사용 예제</h2>
+        <div class="code-block">
+            <pre><code># 기본 포트 스캔
+python3 network_scanner_plus.py
+
+# 특정 포트 지정 스캔
+python3 network_scanner_plus.py --ports 22,80,443 --target 192.168.1.1
+
+# 네트워크 대역 스캔
+python3 network_scanner_plus.py --network 10.0.0.0/24</code></pre>
+        </div>
+    </section>
+
+    <section class="compatibility">
+        <h2>호환성 정보</h2>
+        <ul>
+            <li>Python 3.6 이상 필요</li>
+            <li>표준 라이브러리만 사용 - 추가 의존성 없음</li>
+            <li>조선 네트워크 환경에서 테스트 완료</li>
+            <li>코리올링크 3G/4G 네트워크 호환</li>
+        </ul>
+    </section>
+
+    <footer class="footer">
+        <p>최종 업데이트: 2024년 6월 20일</p>
+        <p>문의: <a href="mailto:jihoon.kim.dev@gmail.com">jihoon.kim.dev@gmail.com</a></p>
+        <p class="small-note">이 도구는 네트워크 보안 연구 및 관리 목적으로 개발되었습니다.</p>
+    </footer>
+</div>
