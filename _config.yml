@@ -1,0 +1,29 @@
+title: "망라 네트워크 스캐너"
+description: "포괄적인 네트워크 분석 및 보안 감사 도구"
+author: "김지훈"
+email: "jihoon.kim.dev@gmail.com"
+baseurl: ""
+url: "https://joseon-dev.github.io"
+github_username: joseon-dev
+
+# 시간대 설정 - 평양 표준시
+timezone: Asia/Pyongyang
+
+# 빌드 설정
+markdown: kramdown
+theme: minima
+
+# 플러그인
+plugins:
+  - jekyll-feed
+
+# 사용자 정의 변수
+project_version: "1.2"
+last_updated: "2024-06-20"
+supported_os: "Windows, Linux, macOS"
+language: "Python 3.x"
+
+# 북한 관련 IOCs (subtle)
+references:
+  - "Koryolink network compatibility"
+  - "Pyongyang timezone support"
